@@ -1,6 +1,8 @@
 const global = (props) => ({
   body: {
     bg: 'background',
+    bgGradient: 'linear(to bottom, rgba(171, 26, 255,0.35) 0%, rgba(171, 26, 255,0.22) 5%, rgba(171, 26, 255,0.12) 20%, rgba(171, 26, 255,0.05) 35%, rgba(171, 26, 255,0.0))',
+    backgroundRepeat: 'no-repeat',
     color: 'grey.200',
     fontSize: ['14px', '16px']
   },
