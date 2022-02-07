@@ -1,12 +1,12 @@
 import { Box, Image, Text, useStyleConfig, VStack } from "@chakra-ui/react"
-import { FC } from "react";
 
 interface CardProps {
   title: string,
   detail: string,
   imageUrl?: string
 }
-const Card: FC<CardProps> = ({ detail, title, imageUrl }) => {
+
+const Card = ({ detail, title, imageUrl }: CardProps) => {
   const styles = useStyleConfig('Card');
 
   return (
