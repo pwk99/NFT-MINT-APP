@@ -21,8 +21,8 @@ const global = (props) => ({
     letterSpacing: -0.4
   },
   p: {
-    color: 'grey.100'
-  }
+    color: 'grey.100',
+  },
 })
 
 const fonts = {

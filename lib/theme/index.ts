@@ -19,7 +19,7 @@ const ThemeOverrides: Partial<ChakraTheme> = {
   components: {
     Button,
     Card,
-    Link
+    Link,
   }
 }
 
