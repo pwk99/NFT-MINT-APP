@@ -1,9 +1,10 @@
+import '@fontsource/source-sans-pro'
 import { ChakraProvider } from "@chakra-ui/provider";
-import { ThemeProvider } from "@chakra-ui/react";
 import { AppProps } from "next/app";
+import Theme from "../lib/theme";
 
 export const Main = ({ Component, pageProps, router }: AppProps) => (
-  <ChakraProvider >
+  <ChakraProvider theme={Theme}>
     <Component {...pageProps} key={router.route} />
   </ChakraProvider>
 )
